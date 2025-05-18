@@ -3,14 +3,16 @@ import React from 'react';
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import { Link } from 'react-router-dom';
+import Image from "@/components/Image";
+import { getAssetPath } from '@/utils/assetUtils';
 
 const Hero = () => {
   return (
     <div className="flex flex-col items-center justify-center min-h-[85vh] px-4 py-16 md:py-24">
       <div className="max-w-3xl mx-auto text-center space-y-10">
-      <div className="w-48 h-48 rounded-full overflow-hidden mx-auto mb-8">
-          <img 
-            src="../main_professional_img.jpg" 
+        <div className="w-48 h-48 rounded-full overflow-hidden mx-auto mb-8">
+          <Image 
+            src="main_professional_img.jpg" 
             alt="Rishabh Mendiratta" 
             className="w-full h-full object-cover object-[center_20%]"
           />

@@ -8,17 +8,6 @@ const Footer = () => {
         <p className="text-sm text-muted-foreground">
           © {new Date().getFullYear()} Rishabh Mendiratta. All rights reserved.
         </p>
-        <div className="flex gap-4 mt-4 md:mt-0">
-          <Link to="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-            LinkedIn
-          </Link>
-          <Link to="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-            GitHub
-          </Link>
-          <Link to="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-            Email
-          </Link>
-        </div>
       </div>
     </footer>
   );

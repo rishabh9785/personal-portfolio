@@ -10,7 +10,7 @@ const Hero = () => {
       <div className="max-w-3xl mx-auto text-center space-y-10">
       <div className="w-48 h-48 rounded-full overflow-hidden mx-auto mb-8">
           <img 
-            src="/main_professional_img.jpg" 
+            src="../main_professional_img.jpg" 
             alt="Rishabh Mendiratta" 
             className="w-full h-full object-cover object-[center_20%]"
           />

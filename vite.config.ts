@@ -24,6 +24,6 @@ export default defineConfig(({ mode }) => ({
   },
   // build output directory for static hosting
   build: {
-    outDir: 'docs',  // you can change to 'docs' if you prefer GH Pages from /docs
+    outDir: 'dist',  // you can change to 'docs' if you prefer GH Pages from /docs
   },
 }));

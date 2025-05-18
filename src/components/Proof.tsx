@@ -9,7 +9,7 @@ const Proof = () => {
 ];
     const ComplexProblemsSolved = [
         {
-            links:"https://flashy-droplet-e82.notion.site/Complex-Problem-that-I-have-solved-1e764a8c24a680d98c9cf424125cc2a8?pvs=74"
+            links:["https://flashy-droplet-e82.notion.site/Complex-Problem-that-I-have-solved-1e764a8c24a680d98c9cf424125cc2a8?pvs=74"]
         }
 ];
 
